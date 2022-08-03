@@ -1,0 +1,14 @@
+package com.countingstars.idempotency.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+
+@Data
+@EqualsAndHashCode
+@NoArgsConstructor
+@AllArgsConstructor
+public class TestReqDTO extends Object {
+    private int i;
+}
